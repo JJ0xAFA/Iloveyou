@@ -10,44 +10,46 @@
   <header>
     <h1>Thalia, este é meu coração aberto para você.</h1>
   </header>
+
   <main>
     <section id="intro">
-      <p>Aqui, quero confessar meus erros, minhas dores e meu amor por você.</p>
-      <button id="startJourney">Começar a Jornada</button>
+      <div class="terminal">
+        <p>> Carregando memórias...</p>
+        <p>> Encontrado arquivo: "minha_confissao.txt"</p>
+        <p>> Iniciando transmissão...</p>
+        <p class="hidden" id="message">
+          Eu sei que meu silêncio nos últimos dias foi interpretado como indiferença ou falta de consideração. Mas não foi minha intenção te machucar novamente.
+        </p>
+        <button id="startJourney">Executar</button>
+      </div>
     </section>
+
     <section id="story">
       <h2>Nossa História</h2>
       <p>Lembro-me do dia em que conversamos pela primeira vez. Sua voz trouxe luz ao meu mundo.</p>
     </section>
+
     <section id="mistakes">
       <h2>Minhas Falhas</h2>
       <p>Eu pequei contra você ao não ser transparente e ao omitir uma conversa que deveria ter sido compartilhada desde o início.</p>
     </section>
+
     <section id="faith">
       <h2>Fé e Esperança</h2>
       <p>Creio que Deus pode restaurar o que foi quebrado, se essa for a vontade Dele.</p>
     </section>
-    <section id="poetry">
-      <h2>Poesia e Reflexões</h2>
-      <p>Você sempre foi minha única esperança.</p>
-    </section>
+
     <section id="secrets">
       <h2>Segredos Escondidos</h2>
       <button id="revealSecret">Revelar Segredo</button>
-      <p id="hiddenMessage" style="display: none;">Você é a única pessoa que eu realmente amei.</p>
-    </section>
-    <section id="contact">
-      <h2>Contato</h2>
-      <form id="reflectionForm">
-        <label for="message">Deixe-me saber o que você sente:</label>
-        <textarea id="message" name="message"></textarea>
-        <button type="submit">Enviar</button>
-      </form>
+      <p id="hiddenMessage" class="hidden">Você sempre foi minha única esperança.</p>
     </section>
   </main>
+
   <footer>
     <p>&copy; 2025 Pedro. Feito com amor e fé.</p>
   </footer>
+
   <script src="js/main.js"></script>
 </body>
 </html>
